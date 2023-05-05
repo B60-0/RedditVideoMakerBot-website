@@ -37,6 +37,14 @@ Or
 pip3 install -r requirements.txt
 ```
 
+## Error 5: FFmpeg automatic installation fails.
+
+Sometimes the automatic installation for FFmpeg fails, this usually happens on OSX. To fix this, install FFmpeg through brew by running
+
+```shell
+brew install FFmpeg
+```
+
 If you have a problem with a specific package (e.g., rich), install it by itself.
 
 ```shell
